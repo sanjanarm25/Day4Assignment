@@ -9,6 +9,7 @@ public class EmployeeWageComputation {
         final int ABSENT = 0;
         final int wagePerHr=20;
         final int WORKING_DAYS = 20;
+        final int MAX_WORKING_HRS = 100;
         int totalWage=0;
         for (int day=1 ;day<=WORKING_DAYS;day++) {
             Random num = new Random();
